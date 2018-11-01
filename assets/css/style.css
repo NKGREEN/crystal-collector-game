@@ -2,12 +2,12 @@ body{
 	background-image: url("../images/ink_background.jpg")
 }
 div{
-	background-color: white;
+	background-color: #B666D2;
 	margin: 10px;
 	width: 25%;
 }
 div{
-	border: solid 2px #6F00FF;
+	border: solid 2px #6A6862;
 	padding: 10px;
 }
 h1, h3, span{
