@@ -3,24 +3,24 @@
 
 // Crystal Variables
 var crystal = {
-  blue:
+  clear:
   {
-    name: "Blue",
+    name: "Diamond",
     value: 0
   },
   green:
   {
-    name: "Green",
+    name: "Emerald",
     value: 0
   },
-  red:
+  purple:
   {
-    name: "Red",
+    name: "Amethyst",
     value: 0
   },
   yellow:
   {
-    name: "Yellow",
+    name: "Citrine",
     value: 0
   }
 };
@@ -52,8 +52,8 @@ var startGame = function() {
   targetScore = getRandom(19, 120);
 
   // Set different values for each of the crystals (between 1 and 12)
-  crystal.blue.value = getRandom(1, 12);
-  crystal.red.value = getRandom(1, 12);
+  crystal.clear.value = getRandom(1, 12);
+  crystal.purple.value = getRandom(1, 12);
   crystal.green.value = getRandom(1, 12);
   crystal.yellow.value = getRandom(1, 12);
 
@@ -65,7 +65,7 @@ var startGame = function() {
   // Testing Console
   console.log("-----------------------------------");
   console.log("Target Score: " + targetScore);
-  console.log("Blue: " + crystal.blue.value + " | Green: " + crystal.green.value + " | Red: " + crystal.red.value +
+  console.log("Clear: " + crystal.clear.value + " | Green: " + crystal.green.value + " | Purple: " + crystal.purple.value +
     " | Yellow: " + crystal.yellow.value);
   console.log("-----------------------------------");
 };
@@ -126,11 +126,11 @@ var addValues = function(clickedCrystal) {
 startGame();
 
 $("#blue").click(function() {
-  addValues(crystal.blue);
+  addValues(crystal.clear);
 });
 
 $("#red").click(function() {
-  addValues(crystal.red);
+  addValues(crystal.purple);
 });
 
 $("#green").click(function() {
