@@ -43,6 +43,7 @@ div.header, div.instructions{
 }
 .gems{
 	clear: both;
+	background-color: transparent;
 }
 .gemImage{
 	background-color: transparent;
