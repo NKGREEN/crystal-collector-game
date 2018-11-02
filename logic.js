@@ -5,22 +5,22 @@
 var crystal = {
   clear:
   {
-    name: "Diamond",
+    name: "Clear",
     value: 0
   },
   green:
   {
-    name: "Emerald",
+    name: "Green",
     value: 0
   },
   purple:
   {
-    name: "Amethyst",
+    name: "Purple",
     value: 0
   },
   yellow:
   {
-    name: "Citrine",
+    name: "Yellow",
     value: 0
   }
 };
