@@ -1,13 +1,13 @@
 body{
-	background-image: url("../images/background.jpg")
+	background-image: url("../images/background.png")
 }
 div{
-	background-color: #B666D2;
+	background-color: white;
 	margin: 10px;
-	width: 25%;
+	width: 25%
 }
 div{
-	border: solid 3px #6A6862;
+	border: solid 2px antiquewhite;
 	padding: 10px;
 }
 h1, h3, span{
@@ -26,7 +26,7 @@ ul {
 }
 /* Specfic Elements*/
 div.header, div.gems{
-	background-color: rgb(160, 148, 154);
+	background-color: #e0e0eb;
 }
 div.header, div.instructions{
 	width: 50%;
@@ -43,22 +43,20 @@ div.header, div.instructions{
 }
 .gems{
 	clear: both;
-	background-color: transparent;
 }
 .gemImage{
-	background-color: transparent;
 	height: 60px;
 	margin: 10px;
 }
 /* IDs */
 #diamond{
-	color: #FFFCF5;
+	color: #3092c7;
 }
 #emerald{
 	color: #00aa59;
 }
 #amethyst{
-	color: #663399;
+	color: #ec4b5f;
 }
 #citrine{
 	color: #ffc225;
