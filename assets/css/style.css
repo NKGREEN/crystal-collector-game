@@ -1,5 +1,5 @@
 body{
-	background-image: url("../images/ink_background.jpg")
+	background-image: url("../images/background.jpg")
 }
 div{
 	background-color: #B666D2;
@@ -51,15 +51,15 @@ div.header, div.instructions{
 	margin: 10px;
 }
 /* IDs */
-#clear{
+#diamond{
 	color: #FFFCF5;
 }
-#green{
+#emerald{
 	color: #00aa59;
 }
-#purple{
+#amethyst{
 	color: #663399;
 }
-#yellow{
+#citrine{
 	color: #ffc225;
 }
