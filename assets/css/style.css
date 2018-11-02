@@ -45,7 +45,7 @@ div.header, div.instructions{
 	clear: both;
 }
 .gemImage{
-	background-color: none;
+	background-color: rgb(160, 148, 154);
 	height: 60px;
 	margin: 10px;
 }
