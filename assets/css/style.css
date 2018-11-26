@@ -5,6 +5,11 @@ body{
     linear-gradient(315deg, hsla(119, 96%, 49%, 1) 100%, hsla(119, 96%, 49%, 0) 70%);
 	background-image:url("...assets/images/background.jpg");
 }
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
 div{
 	background-color: white;
 	margin: 10px;
